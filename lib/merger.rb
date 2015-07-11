@@ -26,7 +26,7 @@ class Merger
         top: 0,
         left: 0,
         text: card_text(story),
-        alert: 'New card'
+        notification: 'New card'
     }
   end
 

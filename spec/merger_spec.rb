@@ -31,8 +31,8 @@ describe Merger do
         expect(merged.first[:top]).to eq 0
       end
 
-      it 'will be marked with an alert' do
-        expect(merged.first[:alert]).to eq 'New card'
+      it 'will be marked with a notification' do
+        expect(merged.first[:notification]).to eq 'New card'
       end
     end
 
